@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #0A0A0C;
+    color: #FFFFFF;
+}
+
+.hero {
+    padding: 120px 40px;
+    text-align: center;
+    background: #111214;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero .sub {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    color: #C7CBD1;
+}
+
+.cta {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #2A6FF2;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #2A6FF2;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.domains, .coming {
+    list-style: none;
+    padding: 0;
+}
+
+.domains li, .coming li {
+    padding: 8px 0;
+    border-bottom: 1px solid #1C1F26;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, button {
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    background: #2A6FF2;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #111214;
+    color: #C7CBD1;
+}
+
+footer a {
+    color: #2A6FF2;
+    text-decoration: none;
+}
